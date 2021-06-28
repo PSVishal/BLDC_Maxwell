@@ -1,0 +1,7 @@
+$begin 'CacheDataVersion'
+	DataVersion=7
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	fractions='4'
+	skew='0'
+$end 'VariableValues'

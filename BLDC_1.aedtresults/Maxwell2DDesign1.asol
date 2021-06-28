@@ -1,0 +1,185 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002021, month=000000000006, day=000000000009, hour=000000000011, min=000000000052, sec=000000000009)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000006131, lin=000000000166, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=53
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=158
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='fractions=\'4\' skew=\'0\'', ID=58)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=58, Ver=53, Dir='DV58_V53.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=58, Ver=53, Dir='DV58_MI0_V53.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=56, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=56, Instance=\'SolutionDefinition\', Solution=57, VersionID=60)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='Transient'
+	SolutionID=57
+	V=60
+	$begin 'States'
+		F(VID=58, Ver=60)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(83, 0, 85, 0.00042, 87, 0.00102, 89, 0.00142, 91, 0.002020000000000001, 93, 0.002420000000000001, 95, 0.003020000000000001, 97, 0.003420000000000001, 99, 0.004020000000000001, 101, 0.00442, 103, 0.005019999999999999, 105, 0.005419999999999999, 107, 0.006019999999999998, 109, 0.006419999999999997, 111, 0.007019999999999996, 113, 0.007419999999999995, 115, 0.008019999999999996, 117, 0.008419999999999997, 119, 0.009019999999999999, 121, 0.00942, 123, 0.01002, 125, 0.04)
+		$begin 'DataMap'
+			VID=58
+			Ver=60
+			Field(DblID=83, Dir='DV58_SOL57_V60.Field83/')
+			Field(DblID=85, Dir='DV58_SOL57_V60.Field85/')
+			Field(DblID=87, Dir='DV58_SOL57_V60.Field87/')
+			Field(DblID=89, Dir='DV58_SOL57_V60.Field89/')
+			Field(DblID=91, Dir='DV58_SOL57_V60.Field91/')
+			Field(DblID=93, Dir='DV58_SOL57_V60.Field93/')
+			Field(DblID=95, Dir='DV58_SOL57_V60.Field95/')
+			Field(DblID=97, Dir='DV58_SOL57_V60.Field97/')
+			Field(DblID=99, Dir='DV58_SOL57_V60.Field99/')
+			Field(DblID=101, Dir='DV58_SOL57_V60.Field101/')
+			Field(DblID=103, Dir='DV58_SOL57_V60.Field103/')
+			Field(DblID=105, Dir='DV58_SOL57_V60.Field105/')
+			Field(DblID=107, Dir='DV58_SOL57_V60.Field107/')
+			Field(DblID=109, Dir='DV58_SOL57_V60.Field109/')
+			Field(DblID=111, Dir='DV58_SOL57_V60.Field111/')
+			Field(DblID=113, Dir='DV58_SOL57_V60.Field113/')
+			Field(DblID=115, Dir='DV58_SOL57_V60.Field115/')
+			Field(DblID=117, Dir='DV58_SOL57_V60.Field117/')
+			Field(DblID=119, Dir='DV58_SOL57_V60.Field119/')
+			Field(DblID=121, Dir='DV58_SOL57_V60.Field121/')
+			Field(DblID=123, Dir='DV58_SOL57_V60.Field123/')
+			Field(DblID=125, Dir='DV58_SOL57_V60.Field125/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=14
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PD(VID=58, Ver=0, File='DV58_SOL57_PD0_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=0
+			PD(VID=58, Ver=0, File='DV58_SOL57_PD1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=0
+			PD(VID=58, Ver=0, File='DV58_SOL57_PD2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			Ver=0
+			PD(VID=58, Ver=0, File='DV58_SOL57_PD3_V0.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=58, Ver=60, File='DV58_SOL57_NFSP10_V60.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=58, Ver=60, Dir='DV58_SOL57_V60.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SimSetupID=56
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(82, 0, 84, 0.00042, 86, 0.00102, 88, 0.00142, 90, 0.002020000000000001, 92, 0.002420000000000001, 94, 0.003020000000000001, 96, 0.003420000000000001, 98, 0.004020000000000001, 100, 0.00442, 102, 0.005019999999999999, 104, 0.005419999999999999, 106, 0.006019999999999998, 108, 0.006419999999999997, 110, 0.007019999999999996, 112, 0.007419999999999995, 114, 0.008019999999999996, 116, 0.008419999999999997, 118, 0.009019999999999999, 120, 0.00942, 122, 0.01002, 124, 0.04)
+		$begin 'DataMap'
+			VID=58
+			Ver=60
+			M(DblID=82, Dir='DV58_S56_V60.cmesh82/')
+			M(DblID=84, Dir='DV58_S56_V60.cmesh84/')
+			M(DblID=86, Dir='DV58_S56_V60.cmesh86/')
+			M(DblID=88, Dir='DV58_S56_V60.cmesh88/')
+			M(DblID=90, Dir='DV58_S56_V60.cmesh90/')
+			M(DblID=92, Dir='DV58_S56_V60.cmesh92/')
+			M(DblID=94, Dir='DV58_S56_V60.cmesh94/')
+			M(DblID=96, Dir='DV58_S56_V60.cmesh96/')
+			M(DblID=98, Dir='DV58_S56_V60.cmesh98/')
+			M(DblID=100, Dir='DV58_S56_V60.cmesh100/')
+			M(DblID=102, Dir='DV58_S56_V60.cmesh102/')
+			M(DblID=104, Dir='DV58_S56_V60.cmesh104/')
+			M(DblID=106, Dir='DV58_S56_V60.cmesh106/')
+			M(DblID=108, Dir='DV58_S56_V60.cmesh108/')
+			M(DblID=110, Dir='DV58_S56_V60.cmesh110/')
+			M(DblID=112, Dir='DV58_S56_V60.cmesh112/')
+			M(DblID=114, Dir='DV58_S56_V60.cmesh114/')
+			M(DblID=116, Dir='DV58_S56_V60.cmesh116/')
+			M(DblID=118, Dir='DV58_S56_V60.cmesh118/')
+			M(DblID=120, Dir='DV58_S56_V60.cmesh120/')
+			M(DblID=122, Dir='DV58_S56_V60.cmesh122/')
+			M(DblID=124, Dir='DV58_S56_V60.cmesh124/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(80, -1)
+		$begin 'DataMap'
+			VID=58
+			Ver=0
+			SM(DblID=80, Dir='DV58_S56_V0.smesh80/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=58, Ver=0, ID=0, ID=1, ID=4)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=58, Ver=0, File='DV58_S56_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=58, Ver=0, Dir='DV58_S56_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=58, Ver=0, Dir='DV58_S56_V0_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=58, Ver=0, File='DV58_S56_V0.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=891, lin=24, lvl=0)
+		SolutionBlock2(pos=1168, lin=29, lvl=0)
+		SolutionBlock3(pos=3841, lin=105, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=6131, lin=166, lvl=0)
+	$end '$index$'
+$end '$index$'

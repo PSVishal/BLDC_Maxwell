@@ -1,0 +1,49 @@
+$begin 'ConEngineContinueData'
+	$begin 'MeshSettings'
+		$begin 'GlobalSurfApproximation'
+			SurfDevChoice=0
+			NormalDevChoice=1
+			AspectRatioChoice=1
+			PullToTrueSurf=false
+			SetFacePreservationLevel=0
+		$end 'GlobalSurfApproximation'
+		MeshMethod='Auto'
+	$end 'MeshSettings'
+	$begin 'MeshOperations'
+		NextUniqueID=0
+		MoveBackwards=false
+		$begin 'Length_Coil'
+			Type='LengthBased'
+			RefineInside=true
+			ID=0
+			Enabled=true
+			Objects(1678, 1690, 1701, 1712, 1723, 1734, 1949, 1962, 1973, 1984, 1995, 2006)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='3.3mm'
+		$end 'Length_Coil'
+		$begin 'Length_Mag'
+			Type='LengthBased'
+			RefineInside=true
+			ID=1
+			Enabled=true
+			Objects(2228)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='1.75mm'
+		$end 'Length_Mag'
+		$begin 'Length_Main'
+			Type='LengthBased'
+			RefineInside=true
+			ID=4
+			Enabled=true
+			Objects(761, 2221, 6, 734, 2274, 729)
+			RestrictElem=false
+			NumMaxElem='1000'
+			RestrictLength=true
+			MaxLength='4.6mm'
+		$end 'Length_Main'
+	$end 'MeshOperations'
+$end 'ConEngineContinueData'

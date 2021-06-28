@@ -1,0 +1,38 @@
+Circuit_begin
+  Y_circuit
+    3279
+    3277
+   53.624844414070232
+   -7.6064280792106906E-006
+  matrixExternal
+    CircuitMatrix_begin
+      Current_source_last 0
+      Current_source 0
+      Y2
+        2
+        0
+        0
+      Y3
+        0
+      B_Y2
+        2
+        53.624844414070232
+        -7.6064280792106906E-006
+      I_loop
+        2
+        53.624844414070232
+        -7.6064280792106906E-006
+      I_branch
+        2
+        53.624844414070232
+        -7.6064280792106906E-006
+      Flux
+        2
+        0.4161593487170131
+        -0.17176158691533797
+      Flux_loop
+        2
+        0.4161593487170131
+        -0.17176158691533797
+    CircuitMatrix_end
+Circuit_end
